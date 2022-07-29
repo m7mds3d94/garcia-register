@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Register</title>
+
+    <link rel="stylesheet" href="css/login-Register.css">
+     <!-- bootstrap -->
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <!-- icon -->
+     <link rel="stylesheet" href="css/line-awesome.css">
+     <link rel="stylesheet" href="css/all.css">
+     <!-- icon -->
+     <!-- favicon -->
+     <link rel="icon" type="image/x-icon" href="images/tab-icon.png">
+</head>
+<body>
+    
+
+
+<!-- start load page -->
+
+<div class="load">
+       
+    <div> 
+         <img src="images/load-3.gif" alt="load">
+     </div>
+     
+ </div>
+
+<!-- end load page -->
+
+
+<div class="contentPage">
+
+
+   
+   
+
+
+
+
+
+
+
+
+
+
+
+     <!-- start navbar -->
+
+<div class="container-fluid mt-2">
+    <div class="row navigation">
+    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6">
+    <a href="https://m7mds3d94.github.io/garcia" class="brand">
+    <img src="images/logo_1.png" alt="logo">
+    </a>
+    </div>
+    <div class="col-xl-6 col-lg-6 ItemsNav">
+    
+    
+    <ul class="navItem">
+    
+    
+    
+    <!-- start home -->
+    <div class="item-nav-home">
+    
+    <li>
+    
+    <a href="#">
+    home
+    </a> 
+    <!-- startdropdown home -->
+    <div class="dropDownContent">
+    <div class="iTemsDropdownHome">
+    <a href="https://m7mds3d94.github.io/garcia-home-1">home one</a>
+    <a href="https://m7mds3d94.github.io/garcia-home-2">home two</a>
+    </div>
+    </div>
+    <!-- END dropdown home -->
+    
+    </li>
+    </div>
+    
+    
+    <!-- end home -->
+    
+    
+    
+    
+    
+    
+    
+    
+    <!-- start shop -->
+    
+    <div class="item-nav-shop">
+    <li>
+    
+    <a href="#">
+    shop
+    </a> 
+    
+    
+    </li>
+    </div>
+    
+    <!-- end shop -->
+    <div class="item-nav-pages">
+    
+    <li>
+    <a href="#">pages</a>
+    
+    
+    <!-- startdropdown pages -->
+    <div class="dropDownContent">
+    <div class="iTemsDropdownPages">
+    <a href="https://m7mds3d94.github.io/garcia-shopping" class="drop-item">Shopping Cart</a>
+    <a href="https://m7mds3d94.github.io/garcia-checkout" class="drop-item">Checkout</a>
+    <a href="https://m7mds3d94.github.io/garcia-compare" class="drop-item">compare</a>
+    <a href="https://m7mds3d94.github.io/garcia-my_account" class="drop-item">My Account</a>
+    <a href="https://m7mds3d94.github.io/garcia-register" class="drop-item">Login & Register</a>
+    <a href="https://m7mds3d94.github.io/garcia-wishlist" class="drop-item">Wishlist</a>
+    </div>
+    </div>
+    <!-- END dropdown pages -->
+    
+    </li>
+    
+    </div>
+    
+    <div class="item-nav-blog">
+    
+    <li>
+    <a href="#">blog</a>
+    <!-- start dropdown blog -->
+    <div class="dropDownContent">
+    <div class="iTemsDropdownBlog">
+    <a href="https://m7mds3d94.github.io/garcia-blog_left_sidebar" class="drop-item">Blog Left Sidebar</a>
+    <a href="https://m7mds3d94.github.io/garcia-blog_right_sidebar" class="drop-item">Blog Right Sidebar</a>
+    <a href="https://m7mds3d94.github.io/garcia-blog_three_column" class="drop-item">Blog Three Column</a>
+    <a href="https://m7mds3d94.github.io/garcia-single_blog_left" class="drop-item">Single Blog Left Sidebar</a>
+    <a href="https://m7mds3d94.github.io/garcia-single_blog_right" class="drop-item">Single Blog Right Sidebar</a>
+    </div>
+    </div>
+    <!-- END dropdown blog -->
+    </li>
+    </div>
+    
+    
+    
+    <li>
+    <a href="https://m7mds3d94.github.io/garcia-contact">
+    contact
+    </a>
+    </li>
+    
+    </ul>
+    </div>
+    <div class="icon-Bar col-xl-3 col-lg-3 ItemsNav">
+    
+    <a href="#" class="shop">
+    <i class="fas fa-sign-in-alt"></i>
+    </a>
+    
+    
+    <a href="#" class="shop">
+    <i class="fas fa-shopping-cart"></i>
+    $256(3 items)
+    </a>
+    
+    </div>
+    <div class="col-md-6 col-sm-6 col-xs-6 collapseBtn">
+    <div class="container-fluid">
+    <div class="row">
+    <a href="#" class="col-3">
+    <i class="fas fa-sign-in-alt"></i>
+    </a>
+    
+    
+    <a href="#" class="shop-items col-3">
+    <i class="fas fa-shopping-cart"></i>
+    $256(3 items)
+    </a>
+    <div class="col-3 notifaction">
+    <i class="fas fa-shopping-cart"></i>
+    <a href="#">
+    3
+    </a>
+    </div>
+    
+    <button type="button" class="col-3"><i class="fas fa-bars"></i></button>
+    </div>
+    </div>
+    </div>
+    
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="navWidthSmall">
+    
+    <div class="closeNavMobile">
+    <i class="fas fa-times"></i>
+    </div>
+    
+    <div class="innerContent">
+    
+    <div class="searchAreaMobile">
+    <form action="#">
+    <input type="search" placeholder="Search....">
+    <span class="searchAreaBtn">
+    <i class="fas fa-search"></i>
+    </span>
+    </form>
+    
+    </div>
+    
+    <div class="navigation-mobile">
+    <ul>
+    <li class="item-Nav-Mobile">
+    
+    <a href="#">home</a>
+    <span class="toggle-icon" toggleIcon="0">
+    <i class="las la-plus"></i>
+    <!-- <i class="fas fa-minus"></i> -->
+    </span>
+    
+    </li>
+    <ul class="sub-menu">
+    <li><a href="https://m7mds3d94.github.io/garcia-home-1">home one</a></li>
+    <li><a href="https://m7mds3d94.github.io/garcia-home-2">home two</a></li>
+    </ul>
+    
+    <li class="item-Nav-Mobile">
+    <a href="#">shop</a>
+    <span class="toggle-icon" toggleIcon="0">
+    <i class="las la-plus"></i>
+    
+    </span>
+    </li>
+    
+    <ul class="sub-menu">
+    <li class="item-inside-Nav-Mobile">
+    <a href="#">Shop Grid</a>
+    <span class="toggle-inside-icon" toggleInsideIcon="0"> 
+    <i class="las la-plus"></i>
+    </li>
+    
+    
+    
+    
+    <!-- start dropdown shopgrid -->
+    
+    
+    <ul class="sub-menu-shopGrid">
+    <li>
+    <a href="#">Left Sidebar</a>
+    </li>
+    <li>
+    <a href="#">right Sidebar</a>
+    </li>
+    <li>
+    <a href="#">three column</a>
+    </li>
+    <li>
+    <a href="#">four column</a>
+    </li>
+    </ul>    
+    <!-- end dropdown shopgrid -->
+    
+    
+    
+    <li class="item-inside-Nav-Mobile">
+    <a href="#">Shop list</a>
+    <span class="toggle-inside-icon" toggleInsideIcon="0"> 
+    <i class="las la-plus"></i>
+    </li>
+    
+    
+    <!-- start dropdown shoplist -->
+    
+    
+    <ul class="sub-menu-shopGrid">
+    <li>
+        <a href="#">Left Sidebar</a>
+    </li>
+    <li>
+        <a href="#">right Sidebar</a>
+    </li>
+        <li>
+        <a href="#">fullwidth</a>
+    </li>
+    
+    </ul>    
+    <!-- end dropdown shoplist -->
+    
+    
+    
+    
+    
+    <li class="item-inside-Nav-Mobile">
+    <a href="#">single product</a>
+    <span class="toggle-inside-icon" toggleInsideIcon="0"> 
+    <i class="las la-plus"></i>
+    </li>
+    
+    
+    
+    <!-- start dropdown single product -->
+    
+    
+    <ul class="sub-menu-shopGrid">
+    <li>
+    <a href="#">standard</a>
+    </li>
+    <li>
+    <a href="#">varible</a>
+    </li>
+    <li>
+    <a href="#">affiliate</a>
+    </li>
+    <li>
+    <a href="#">group</a>
+    </li>
+    
+    </ul>    
+    <!-- end dropdown single product -->
+    
+    
+    
+    </ul>
+    
+    <li class="item-Nav-Mobile">
+    <a href="#">pages</a>
+    <span class="toggle-icon" toggleIcon="0">
+    <i class="las la-plus"></i>
+    
+    </span>
+    </li>
+    <ul class="sub-menu">
+    <li><a href="https://m7mds3d94.github.io/garcia-shopping">shopping cart</a></li>
+    <li><a href="https://m7mds3d94.github.io/garcia-checkout">checkout</a></li>
+    <li><a href="https://m7mds3d94.github.io/garcia-compare">compare</a></li>
+    
+    <li><a href="https://m7mds3d94.github.io/garcia-my_account">may account</a></li>
+    <li><a href="https://m7mds3d94.github.io/garcia-register">login & Register</a></li>
+    <li><a href="https://m7mds3d94.github.io/garcia-wishlist">wishlist</a></li>
+    
+    
+    
+    </ul>
+    <li class="item-Nav-Mobile">
+    <a href="#">blog</a>
+    <span class="toggle-icon" toggleIcon="0">
+    <i class="las la-plus"></i>
+    
+    </span>
+    </li>
+    
+    <ul class="sub-menu">
+    <li><a href="https://m7mds3d94.github.io/garcia-blog_left_sidebar">blog left sidebar</a></li>
+    <li><a href="https://m7mds3d94.github.io/garcia-blog_right_sidebar">blog right sidebar</a></li>
+    <li><a href="https://m7mds3d94.github.io/garcia-blog_three_column">blog three column</a></li>
+    
+    <li><a href="https://m7mds3d94.github.io/garcia-single_blog_left">single blog left sidebar</a></li>
+    <li><a href="https://m7mds3d94.github.io/garcia-single_blog_right">single blog right sidebar</a></li>
+    
+    
+    
+    
+    </ul>
+    
+    <li>
+    <a href="https://m7mds3d94.github.io/garcia-contact">contact</a>
+    </li>
+    </ul>
+    </div>
+    
+    <div class="sitting-off-mobile">
+    <ul>
+    <li class="item-Nav-Mobile">
+    
+    <a href="https://m7mds3d94.github.io/garcia-my_account">MY ACCOUNT</a>
+    <span class="toggle-icon" toggleIcon="0">
+    <i class="las la-plus"></i>
+    
+    </span>
+    
+    </li>
+    <ul class="sub-menu">
+    <li><a href="https://m7mds3d94.github.io/garcia-register">Register</a></li>
+    <li><a href="lhttps://m7mds3d94.github.io/garcia-register">Login</a></li>
+    </ul>
+    </ul>
+    
+    <li class="item-Nav-Mobile">
+    
+    <a href="#">CURRENCY: USD</a>
+    <span class="toggle-icon" toggleIcon="0">
+    <i class="las la-plus"></i>
+    
+    </span>
+    
+    </li>
+    
+    <ul class="sub-menu">
+    <li><a href="#">€ Euro</a></li>
+    <li><a href="#">$ US Dollar</a></li>
+    </ul>
+    
+    <li class="item-Nav-Mobile">
+    
+    <a href="#">LANguage: en-gb</a>
+    <span class="toggle-icon" toggleIcon="0">
+    <i class="las la-plus"></i>
+    
+    </span>
+    
+    </li>
+    
+    <ul class="sub-menu">
+    <li><a href="#">English</a></li>
+    <li><a href="#">Germany</a></li>
+    </ul>
+    </ul>
+    
+    </div>
+    
+    
+    
+    
+    <div class="wedgeit-area-mobile">
+    
+    <div class="contact-wedgeit">
+    <ul>
+    <li>
+    <i class="fas fa-phone"></i>
+    <a href="#">
+    +020197997920
+    </a>
+    </li>
+    <li>
+    <i class="fas fa-envelope"></i>
+    <a href="#">
+    info@yourdomain.com
+    </a>
+    </li>
+    </ul>
+    </div>
+    
+    
+    </div>
+    
+    
+    
+    <div class="wedgeit-social-mobile">
+    <a href="#">
+    <i class="fab fa-facebook-f"></i>
+    </a>
+    <a href="#">
+    <i class="fab fa-twitter"></i>
+    </a>
+    <a href="#">
+    <i class="fab fa-linkedin-in"></i>
+    </a>
+    <a href="#">
+    <i class="fab fa-youtube"></i>
+    </a>
+    <a href="#">
+    <i class="fab fa-vimeo"></i>
+    </a>
+    
+    
+    </div>
+    
+    </div>
+    </div>
+    
+    </div>
+    <!-- end navbar -->
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   
+   
+   
+   
+               <!-- start page banner -->
+               <div class="container-fluid mt-2">
+               <div class="page-banner col-12">
+           <div class="container shoping">
+               <h2 class="tittle">Login & Register</h2>
+               <ul class="breadcrumb">
+                   <li><a href="home-1.html">Home</a></li>
+                   <li><i class="fas fa-chevron-right"></i></li>
+                   <li>Login & Register</li>
+               </ul>
+           </div>
+   
+       </div>
+   
+               </div>
+               <!-- end page banner -->
+   
+   
+   
+   
+   
+
+
+
+
+
+
+
+
+
+               <!-- start content register  -->
+
+
+
+
+
+                <div class="container-fluid pd-80">
+
+                    <!-- start content register details -->
+                   
+                        <div class="row">
+                            
+                            <!-- start column already account -->
+                            
+                            <div class="col-xl-5 col-lg-5 col-md-6 col-sm-12 col-xs-12 mb40">
+                                <div class="login-register">
+
+                                  <div class="container">
+                                      
+
+                                    <h3>Already a Member?</h3>
+                                    <form action=""> 
+                                        <div class="row">
+                                        <div class="col-12 mb20">
+                                    <input type="text" name="user" id="user" placeholder="Email or Username">
+                                        </div>
+                                        <div class="col-12 mb20 eye">
+                                            <input type="password" name="password" id="password" placeholder="password">
+                                         <span class="show-pass-0" toggle="0"><i class="fas fa-eye-slash"></i> </span>  
+                                        </div>
+                                        <div class="col-12">
+                                    <button type="button">Login</button>
+                                </div>
+                            </div>
+                                </form>
+                            </div>
+                                </div>
+
+                            </div>
+                         
+
+                            <!-- end column already account -->
+
+
+
+
+                             <!-- start column register form -->
+                          
+                             <div class="col-xl-7 col-lg-7 col-md-6 col-sm-12 col-xs-12">
+                                <div class="login-register">
+                                    <h3>Register Form</h3>
+                                    <!-- start row name input register form -->
+                                    <div class="container">
+                                    <div class="row">
+                                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 mb20">
+                                                <input type="text" name="Name" id="Name" placeholder="Name">
+                                            </div>
+                                            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12  mb20">
+                                                <input type="email" name="email" id="email" placeholder="Enter your email">
+                                            </div>
+                                    </div>
+                                    <!-- start row name input register form -->
+
+
+                                     <!-- start row password input register form -->
+                                     <div class="row">
+                                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12  mb20 eye">
+                                            <input type="password" name="form-password" id="form-password" placeholder="password">
+                                            <span class="show-pass-1" toggle="0"><i class="fas fa-eye-slash"></i></span>
+                                        </div>
+                                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12  eye mb20">
+                                            <input type="password" name="Rpassword" id="rpassword" placeholder="Repeat Password">
+                                            <span class="show-pass-2" toggle="0"><i class="fas fa-eye-slash"></i> </span> 
+                                        </div>
+                                </div>
+                                <!-- start row password input register form -->
+
+                                    <div class="col-12">
+                                        <button type="button">Register</button>
+                                    </div>
+                                </div>
+                                </div>
+
+                            </div>
+
+                             <!-- end column register form -->
+
+
+
+                        </div>
+
+
+
+                    </div>
+
+                    <!-- end content register details -->
+
+            
+
+
+
+
+
+
+
+
+               <!-- end content register  -->
+           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                  <!-- start subscribe -->
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+        <div class="subscribe-section sub-sec">
+            <div class="sub-content">
+                <h2>Subscribe our Newsletter
+                    <span>Get update for news, offers</span>
+                </h2>
+                <form action="#" class="sub-form">
+                    <input type="email" id="mail" placeholder="Enter your email here" name="email" autocomplete="off">
+                    <button type="submit" id="submit"> 
+                        <i class="fab fa-telegram-plane"></i>
+                    </button>
+                </form>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
+<!-- end subscribe -->
+
+
+
+
+
+<!-- start service -->
+<div class="section pd-80">
+    <div class="container-fluid">
+        <div class="row ma-b-30">
+            <!-- start column one -->
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-5 plr-25">
+                <div class="service">
+                    <span class="icon-ser-1">
+
+                    </span>
+                           
+                    <div class="content-ser">
+                        <h3>Free home delivery</h3>
+                        <p>Provide free home delivery for the all product over $100</p>
+                    </div>
+                </div>
+            </div>
+            <!-- end column one -->
+
+            <!-- start column two -->
+
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-5 plr-25">
+                <div class="service">
+                    <span class="icon-ser-2">
+
+                    </span>
+                           
+                    <div class="content-ser">
+                        <h3>Quality Products</h3>
+                        <p>We ensure the product quality that is our main goal</p>
+                    </div>
+                </div>
+            </div>
+            <!-- end column two -->
+
+            <!-- start column three -->
+
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-5 plr-25">
+                <div class="service">
+                    <span class="icon-ser-3">
+
+                    </span>
+                           
+                    <div class="content-ser">
+                        <h3>3 Days Return</h3>
+                        <p>Our Return Policy is very simple and easy for all</p>
+                    </div>
+                </div>
+            </div>
+            <!-- end column three -->
+
+            <!-- start column four -->
+
+            <div class="col-xl-3 col-lg-3 mt-2 col-md-6 col-sm-12 col-xs-12 mt-5 plr-25">
+                <div class="last-service">
+                    <span class="icon-last">
+
+                    </span>
+                           
+                    <div class="content-ser">
+                        <h3>Online Support</h3>
+                        <p>Provide 24/7 online support for any information</p>
+                    </div>
+                </div>
+            </div>
+            <!-- end column four -->
+
+
+        </div>
+    </div>
+</div>
+
+<!-- end service -->
+
+
+
+
+
+
+<!-- start footer -->
+
+
+<footer>
+
+    <div class="container-fluid">
+        <div class="footer-sec">
+
+            <!-- start footer top  -->
+
+            <div class="pd-footer">
+
+                <div class="row">
+                    <!-- start column one  -->
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 mb40">
+                        
+                        <div class="footer-wed">
+                            <h4>About us</h4>
+                            <div class="footer-txt">
+                                <p>
+                                    The new hero pieces bring instant fashion credibility.
+                                    Bright florals clash with camouflage prints.
+                                </p>
+                            </div>
+                        </div>  
+                            <div class="footer-wed mt20">
+                            <h4>Follow us</h4>
+                            <div class="icon-footer">
+                                <a href="#"><i class="lab la-facebook-f"></i></a>
+                                <a href="#"><i class="lab la-twitter"></i></a>
+                                <a href="#"><i class="las la-rss"></i></a>
+                                <a href="#"><i class="lab la-google-plus-g"></i></a>
+                                <a href="#"><i class="lab la-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <!-- end column one  -->
+
+                      <!-- start column two  -->
+                      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 mb40">
+
+                        <div class="footer-wed">
+                            <h4>Information</h4>
+                            <ul>
+                                <li><a href="#">About Us</a></li>
+                                 <li><a href="#">Services</a></li>
+                                 <li><a href="#">Delivary Information</a></li>
+                                 <li><a href="#">Privacy Policy</a></li>
+                                 <li><a href="#">Terms & Conditions</a></li>
+                                 <li><a href="#">Return Policy</a></li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+                    <!-- end column two  -->
+
+                      <!-- start column three  -->
+                      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 mb40">
+
+                        <div class="footer-wed">
+                            <h4>My Account</h4>
+                            <ul>
+                                <li><a href="#">My Account</a></li>
+                                 <li><a href="#">Cart</a></li>
+                                 <li><a href="#">Checkout</a></li>
+                                 <li><a href="#">Contact</a></li>
+                                 <li><a href="#">Validation</a></li>
+                                 <li><a href="#">Wishlist</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <!-- end column three  -->
+
+                      <!-- start column four  -->
+                      <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 col-xs-12 mb40">
+
+                        <div class="footer-wed">
+                            <h4>Get In Touch</h4>
+                            <div class="footer-txt mb15">
+                                    <p>
+                                        <i class="las la-home"></i>
+                                         39 Abbas-ElAkaad, Nacr-City, Cairo.
+                                    </p>
+                                    <p>
+                                        <i class="las la-phone"></i>
+                                        (+02)1097997920
+                                    </p>
+
+                                    <p>
+                                        <i class="las la-envelope"></i>
+                                       saadm14494@gmail.com
+                                    </p>
+                                    <p>
+                                        <i class="las la-tty"></i>
+                                        (+02)20477437
+                                    </p>
+                            </div>
+                            <img src="images/payment.jpg" class="fot-img" alt="pay">
+                        </div>
+
+                    </div>
+                    <!-- end column four  -->
+
+
+                </div>
+            </div>
+
+
+            <!-- end foooter top -->
+
+            <!-- start footer bottom -->
+
+            <div class="footer-bottom">
+                <div class="row">
+                    <div class="col-12">
+                        <p>Copyright © 2022 <a href="#">Garcia</a>. All Right Reserved.</p>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- end footer bottom -->
+
+        </div>
+
+    </div>
+
+</footer>
+
+</div>
+
+
+
+
+
+               <script src="javascript/jquery-3.6.0.min.js"></script>
+               <script src="javascript/login-Register.js"></script>
+               
+
+</body>
+</html>
